@@ -19,11 +19,12 @@
 
 ## 🏅 Desafio <a id="desafio"></a>
 
-O desafio consiste em criar uma aplicação web de avaliação de respostas de LLM. A aplicação deve permitir enviar um prompt para 2 (dois) LLMs via API simultaneamente. A seguir, a aplicação deve apresentar as 2 (duas) respostas obtidas. Para cada resposta, a aplicação apresenta os itens de avaliação das respostas e, ao final, a aplicação apresenta uma escala de comparação das duas respostas para que o usuário possa definir qual das duas respostas foi a melhor e justificar. Todas essas informações devem ser gravadas em um banco de dados que servirá para futuros retreinamentos dos LLMs.
+O desafio consiste em desenvolver um sistema web que indique todos os processos e artefatos da metodologia ágil (Scrum). O sistema deve apresentar conceitos e fundamentos com referências, bem como a aplicação com desafios para a plena compreensão do usuário. Adicionalmente, deverá incluir uma avaliação final. O foco principal é a disseminação dos processos Scrum para que os usuários possam replicar todos os passos em futuros desenvolvimentos, e secundariamente, a compreensão de habilidades (Skills) importantes para um profissional de tecnologia da informação.
+
 
 ## 🏅 Solução <a id="solucao"></a>
 
-
+⚠️ Em desenvolvimento. ⚠️
 
 ---
 
