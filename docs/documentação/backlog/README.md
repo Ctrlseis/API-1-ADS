@@ -1,7 +1,7 @@
 # API 1º Semestre ADS
 
 <p align="center">
-      <img src="docs/Img/Ctrl6_Logo.jpg" alt="logo do Ctrlseis" width="350">
+      <img src="../../Img/Ctrl6_Logo.jpg" alt="logo do Ctrlseis" width="350">
       <h2 align="center"> CtrlSeis</h2>
 </p>
 
