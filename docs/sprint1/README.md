@@ -7,5 +7,4 @@
 
 ## 📂 Documentos do Projeto
 
-⚫ Backlog em pdf:
-[Baixar PDF](docs/sprint1/backlog.pdf)
+⚫ Backlog em PDF   ([Download](backlog.pdf))
