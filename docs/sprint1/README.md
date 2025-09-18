@@ -9,5 +9,5 @@
 
 ⚫ Backlog em PDF   ([Download](backlog.pdf))
 
-⚫ Casos de Uso no Software Asta ([Download](https://github.com/NicolasFonsecaM/repo1ADS/raw/main/docs/sprint1/Caso_de_Uso%20(API).asta))
+⚫ Casos de Uso no Software Asta ([Download](https://github.com/Ctrlseis/API-1-ADS/raw/main/docs/sprint1/Caso_de_Uso%20(API).asta))
 
