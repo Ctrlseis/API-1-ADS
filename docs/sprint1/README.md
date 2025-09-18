@@ -8,3 +8,6 @@
 ## 📂 Documentos do Projeto
 
 ⚫ Backlog em PDF   ([Download](backlog.pdf))
+
+⚫ Casos de Uso do Projeto no Asta ([Download](Caso_de_Uso(API).asta))
+
