@@ -29,9 +29,9 @@ O desafio consiste em desenvolver um sistema web que indique todos os processos 
 
 ## 📅 Cronograma de Sprints <a id="sprint"></a>
 
-| Sprint          |    Período    |
-| --------------- | :-----------: |
-| 🔖 **SPRINT 1** | 08/09 - 28/09 |
+| Sprint          |    Período    |  Documentação  |
+| --------------- | :-----------: | :--------------------: |
+| 🔖 **SPRINT 1** | 08/09 - 28/09 |  <a href = docs/sprint1/documentação/README.md> Sprint 1 Docs</a>
 | 🔖 **SPRINT 2** | 06/10 - 26/10 |
 | 🔖 **SPRINT 3** | 03/11 - 23/11 |
 
@@ -40,6 +40,9 @@ O desafio consiste em desenvolver um sistema web que indique todos os processos 
 <h4 align="center">
  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
  <a href="https://github.com/"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.figma.com/"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/></a>
+<a href="https://www.atlassian.com/software/jira"><img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/></a>
+
 </h4>
 
 ---
