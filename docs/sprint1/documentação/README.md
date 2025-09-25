@@ -38,6 +38,36 @@ Estabelecer as bases do projeto por meio da definição de tecnologias, criaçã
 
 ---
 
+## ✅ Definition of Ready (DoR)
+
+| Critério                             | Descrição                                                                                   |
+|--------------------------------------|---------------------------------------------------------------------------------------------|
+| Descrição clara                      | A User Story está bem escrita e compreensível para toda a equipe.                          |
+| Critérios de aceitação definidos     | Regras de validação estão descritas (ex: “Quando o usuário fizer X, deve acontecer Y”).    |
+| Estimativa feita                     | A tarefa foi discutida e estimada pela equipe (ex: pontos, horas).                         |
+| Responsável atribuído                | Já existe um membro da equipe designado para a execução.                                   |
+| Recursos e tecnologias definidos     | Todas as ferramentas, bibliotecas e acessos estão disponíveis.                             |
+| Dependências resolvidas              | Tudo que bloqueava a tarefa (ou dependia de outra) foi tratado.                            |
+| Validação do PO ou SM                | O Product Owner ou Scrum Master aprovou a entrada da tarefa na sprint.                     |
+| Tarefa com tamanho adequado          | A história está granular o suficiente para ser entregue em uma sprint.                     |
+
+---
+
+## ✅ Definition of Done (DoD)
+
+| Critério                             | Descrição                                                                                   |
+|--------------------------------------|---------------------------------------------------------------------------------------------|
+| Funcionalidade implementada          | Todos os critérios de aceitação foram atendidos.                                           |
+| Revisada por outro membro            | Passou por Code Review (ou revisão técnica) e está aprovada.                               |
+| Testada (manual ou automatizado)     | Foi validada com testes que confirmam seu funcionamento.                                   |
+| Sem erros críticos ou falhas         | Não há bugs que impeçam o uso ou comprometam a experiência.                                |
+| Integrada ao sistema                 | A funcionalidade está disponível na aplicação, com navegação ou acesso integrados.         |
+| Documentação atualizada              | Documentação técnica ou de uso foi ajustada se necessário.                                 |
+| Apresentada na Review ou validada PO| Foi apresentada ao time e validada pelo Product Owner ou professor/responsável.           |
+| Publicada ou pronta para deploy      | Código mergeado, aprovado e funcional no ambiente necessário (homologação ou produção).    |
+
+---
+
 ## 🎓 Equipe <a id="equipe"></a>
 
 <div align="center">
