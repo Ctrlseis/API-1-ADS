@@ -1,0 +1,17 @@
+Time Scrum 
+
+A unidade central do Scrum é o Time Scrum, composto por um Product Owner, um Scrum Master e os Desenvolvedores. Não há subequipes ou hierarquias internas. O grupo é multifuncional (possui todas as habilidades necessárias) e autogerenciado (decide internamente quem faz o quê, quando e como). 
+
+O Time Scrum é responsável por todas as atividades relacionadas ao produto: colaboração com stakeholders, pesquisa, desenvolvimento, operação e manutenção. A cada Sprint, o time deve entregar um Incremento de valor. Os papéis dentro do Time Scrum são divididos em três responsabilidades específicas: 
+
+Desenvolvedores 
+
+Os Desenvolvedores são responsáveis por criar incrementos utilizáveis a cada Sprint. Eles planejam o Sprint Backlog, mantêm a qualidade seguindo a Definition of Done, adaptam o plano diariamente e se responsabilizam mutuamente pelo resultado. 
+
+Product Owner 
+
+O Product Owner é responsável por maximizar o valor do produto. Ele define e comunica claramente a meta do produto (Product Goal), organiza os itens do backlog e garante que o backlog esteja visível e compreensível. É apenas uma pessoa, não um comitê, e suas decisões devem ser respeitadas por toda a organização. 
+
+Scrum Master 
+
+O Scrum Master é responsável por garantir que o Scrum seja compreendido e praticado. Ele atua como líder servidor, ajudando o time a ser mais eficaz, removendo impedimentos e facilitando a colaboração com stakeholders. Ele também apoia o Product Owner e promove a adoção do Scrum em toda a organização. 

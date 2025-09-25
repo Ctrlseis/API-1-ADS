@@ -1,0 +1,25 @@
+Propósito do Guia Scrum 
+
+O Scrum foi criado no início da década de 1990. A primeira versão do Guia Scrum foi publicada em 2010 para ajudar pessoas do mundo todo a compreenderem o framework. Desde então, ele passou por atualizações pontuais para se manter relevante. Este guia define Scrum em sua totalidade: cada elemento é essencial. Alterar ou omitir partes pode esconder problemas e reduzir os benefícios do Scrum. 
+
+Definição de Scrum 
+
+Scrum é um framework leve que ajuda pessoas, equipes e organizações a gerar valor por meio de soluções adaptativas para problemas complexos. Ele exige um Scrum Master para criar o ambiente certo onde: 
+1. O Product Owner organiza o trabalho no Product Backlog; 
+2. O Time Scrum transforma parte desse trabalho em Incremento durante a Sprint; 
+3. O Time Scrum e stakeholders inspecionam o resultado e ajustam para a próxima Sprint; 
+4. O ciclo se repete. 
+
+Teoria do Scrum 
+
+O Scrum é baseado em empirismo e pensamento enxuto. O empirismo afirma que o conhecimento vem da experiência e da observação. O pensamento enxuto busca eliminar desperdícios e focar no essencial. Scrum é iterativo e incremental, reduz riscos e aumenta a previsibilidade. 
+
+Transparência, Inspeção e Adaptação 
+
+- Transparência: o trabalho e o processo devem ser visíveis para todos. 
+- Inspeção: progresso e artefatos precisam ser avaliados com frequência para identificar problemas. 
+- Adaptação: ajustes devem ser feitos rapidamente sempre que algo sair do esperado. 
+
+Valores do Scrum 
+
+O sucesso do Scrum depende da prática de cinco valores fundamentais: Compromisso, Foco, Abertura, Respeito e Coragem. Esses valores orientam as ações, decisões e comportamento da equipe. 

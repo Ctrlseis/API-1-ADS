@@ -1,0 +1,60 @@
+Scrum – Modelo de Gestão Ágil (Versão Reescrita) 
+
+O que é Scrum? 
+
+O termo Scrum vem do rugby, representando a ideia de reinício rápido de jogada em que os jogadores se unem para conquistar a posse da bola. No contexto da gestão ágil, Scrum é um framework simples e adaptável, usado para organizar e gerenciar o desenvolvimento de produtos em cenários complexos. 
+
+Por que Scrum? 
+
+Scrum é uma escolha interessante porque não existe uma única solução para todos os problemas. Ele funciona bem quando combinado com práticas adicionais que podem ser adaptadas a cada contexto. Entre os benefícios do Scrum estão: 
+- Entregas frequentes de valor para o cliente; 
+- Redução de riscos do projeto; 
+- Maior qualidade do produto; 
+- Capacidade de transformar mudanças em vantagem competitiva; 
+- Maior visibilidade do progresso; 
+- Redução de desperdícios; 
+- Aumento de produtividade. 
+
+Ágil x Cascata e Valores do Ágil 
+
+Diferente do modelo em cascata, que é linear e rígido, o ágil promove ciclos iterativos e colaborativos. O Manifesto Ágil trouxe novos valores: foco nas pessoas e interações, no software funcionando, na colaboração com o cliente e na resposta a mudanças. O Scrum adota esses princípios como base de sua aplicação. 
+
+Product Backlog 
+
+O Product Backlog é a lista priorizada de tudo que pode ser desenvolvido pelo time de desenvolvimento durante o projeto. Ele é atualizado constantemente e nunca está finalizado. Os itens do topo são mais detalhados, de granularidade fina e com estimativas mais precisas. Já os itens da base são mais amplos e menos detalhados. 
+
+O Product Owner é o único responsável por gerenciar o Product Backlog, criando, organizando, atualizando e dando visibilidade a ele. Outros podem contribuir, mas só o Product Owner toma a decisão final. 
+
+Sprint Backlog 
+
+O Sprint Backlog é formado pelos itens selecionados do Product Backlog para serem entregues durante a Sprint. É um plano de trabalho em constante atualização, elaborado em conjunto entre o Product Owner e o Time de Desenvolvimento. 
+
+Estimativas no Scrum 
+
+As estimativas servem para prever o esforço necessário para transformar itens do Product Backlog em incrementos prontos. A técnica de Story Points é bastante utilizada, atribuindo valores relativos ao esforço necessário, muitas vezes baseada na sequência de Fibonacci. A responsabilidade pela estimativa é sempre do time de desenvolvimento, nunca de uma pessoa isolada. 
+
+User Stories 
+
+User Story ou História de Usuário é uma forma simples e concisa de descrever uma necessidade do ponto de vista do usuário. Ela ajuda a manter o foco no valor entregue, mas não é obrigatória dentro do Scrum, sendo uma prática complementar. 
+
+Visão do Produto 
+
+A Visão do Produto é o objetivo estratégico que guia todo o desenvolvimento. Ela fornece contexto, direção e inspiração para o trabalho do time. A visão deve ser simples e comunicável, como no modelo do 'Teste do Elevador', em que o produto é explicado de forma clara em poucos segundos. 
+
+Definição de Pronto (DoD) e Definição de Preparado (DoR) 
+
+A Definição de Pronto (Definition of Done) é um acordo entre o Product Owner e o Time de Desenvolvimento sobre os critérios necessários para considerar um item concluído. Isso garante clareza e transparência sobre o que significa algo estar finalizado. 
+
+Já a Definição de Preparado (Definition of Ready) é usada para garantir que os itens do backlog tenham detalhes suficientes antes de entrarem em uma Sprint, reduzindo riscos de falhas de planejamento. 
+
+Eventos do Scrum 
+
+Os principais eventos do Scrum são: 
+- Sprint Planning: planejamento do trabalho da Sprint; 
+- Daily Scrum: reunião diária de alinhamento; 
+- Sprint Review: inspeção do incremento com stakeholders; 
+- Sprint Retrospective: reflexão sobre melhorias para o próximo ciclo. 
+
+Conclusão 
+
+Scrum é um modelo de gestão ágil que equilibra simplicidade e flexibilidade. Ele permite entregas frequentes, adaptação a mudanças e foco constante no valor entregue ao cliente. Quando aplicado corretamente, aumenta a transparência, reduz riscos e melhora a produtividade dos times. 

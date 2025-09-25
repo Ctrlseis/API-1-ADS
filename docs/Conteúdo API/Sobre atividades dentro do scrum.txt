@@ -1,0 +1,54 @@
+Eventos do Scrum 
+
+O Scrum organiza seu trabalho em Sprints, que são contêineres para todos os outros eventos. Cada evento tem duração fixa e é projetado para criar transparência, inspeção e adaptação. 
+
+Sprint 
+
+A Sprint é o coração do Scrum, com duração de até um mês. Nela, ideias são transformadas em valor. Durante a Sprint: 
+- Não se fazem mudanças que coloquem em risco a Meta da Sprint; 
+- A qualidade não pode cair; 
+- O backlog pode ser refinado conforme necessário; 
+- O escopo pode ser ajustado com o Product Owner conforme surgem novos aprendizados. 
+
+Planejamento da Sprint 
+
+No início de cada Sprint, o time define: 
+1. Por que a Sprint é valiosa (definição da Meta da Sprint); 
+2. O que pode ser feito durante a Sprint (seleção de itens do backlog); 
+3. Como o trabalho será realizado (plano de execução). 
+
+Daily Scrum 
+
+Reunião diária de 15 minutos para os Desenvolvedores inspecionarem o progresso em relação à Meta da Sprint e ajustarem o plano. Não é um relatório para o Scrum Master, mas um momento de alinhamento do próprio time. 
+
+Revisão da Sprint 
+
+O Time Scrum apresenta o resultado da Sprint aos stakeholders. Juntos, eles inspecionam o que foi feito e decidem os próximos passos. É uma sessão colaborativa, não apenas uma apresentação. 
+
+Retrospectiva da Sprint 
+
+Último evento da Sprint. O time reflete sobre interações, processos e ferramentas utilizadas, identifica melhorias e define ações para aumentar qualidade e eficácia já na próxima Sprint. 
+
+Artefatos do Scrum 
+
+Os artefatos representam o trabalho e o valor. Cada um possui um compromisso que reforça a transparência e a responsabilidade. 
+
+Product Backlog 
+
+É a lista ordenada de tudo o que o produto precisa. O Product Goal define a direção de longo prazo. Os itens são refinados continuamente para estarem prontos para futuras Sprints. 
+
+Sprint Backlog 
+
+É composto pela Meta da Sprint, os itens selecionados e o plano de execução. É um retrato em tempo real do trabalho e pode ser atualizado conforme surgem novos aprendizados. 
+
+Incremento 
+
+Cada incremento é um passo em direção ao Product Goal e deve estar em condição utilizável. Pode haver mais de um incremento por Sprint, mas todos devem atender à Definition of Done. 
+
+Definition of Done 
+
+Conjunto de critérios que define quando um item está concluído. Garante transparência sobre o que está realmente pronto para ser entregue. Se o item não cumpre a Definition of Done, ele retorna ao backlog. 
+
+Nota Final 
+
+O Scrum é gratuito e oferecido integralmente neste guia. Ele só funciona corretamente quando aplicado em sua totalidade. Usar apenas partes do Scrum não significa estar utilizando Scrum de fato. 
