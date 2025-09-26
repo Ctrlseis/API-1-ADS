@@ -42,7 +42,7 @@ O desafio consiste em desenvolver um sistema web que indique todos os processos 
  <a href="https://github.com/"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://www.figma.com/"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/></a>
 <a href="https://www.atlassian.com/software/jira"><img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/></a>
-
+<a href="https://code.visualstudio.com/"><img src=https://img.shields.io/badge/Vscode-blue/><a/>
 </h4>
 
 ---
