@@ -21,8 +21,6 @@ O desafio consiste em desenvolver um sistema web que indique todos os processos 
 
 📁 <a href = docs/sprint1/README.md> Documentos do Projeto</a>
 
-📖 <a href = docs/documentação/manual/README.md> Manual de Instalação e Execução</a>  
-
 🎓 <a href = docs/documentação/equipe/README.md> Equipe</a> 
 
 ---
