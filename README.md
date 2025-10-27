@@ -17,11 +17,25 @@ O desafio consiste em desenvolver um sistema web que indique todos os processos 
 
 ## 📝 Sumário
 
-📋 <a href = docs/documentação/backlog/README.md> Backlog do Produto</a>  
-
 📁 <a href = docs/sprint1/README.md> Documentos do Projeto</a>
 
 🎓 <a href = docs/documentação/equipe/README.md> Equipe</a> 
+
+---
+## 📋 Backlog do Produto <a id="backlog"></a>
+
+| Rank | Prioridade | User Story                                                                                                                                                                                                     | Sprint 
+| :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: |
+|   1  |    Alta    | Como supervisor, quero um painel para apresentar uma introdução ao modelo scrum.                                                                                                                               |    1   |
+|   2  |    Alta    | Como supervisor, quero uma página dedicada para os capítulos (sumário).                                                                                                                                        |    1   |
+|   3  |    Alta    | Como supervisor, quero uma área divida por níveis para organização de cada capítulo.                                                                                                                           |    1   |
+|   4  |    Alta    | Como supervisor, quero conteúdo em cada capítulo para aplicar ao usuário.                                                                                                                                      |    2   |
+|   5  |    Alta    | Como supervisor quero exercícios em cada capítulo para testar o conhecimento adquirido do usuário.                                                                                                             |    2   |
+|   6  |    Alta    | Como supervisor, quero um site intuitivo e chamativo visualmente.                                                                                                                                              |    2   |
+|   7  |    Alta    | Como administrador, quero uma área definida para login e visualização do desempenho do usuário.                                                                                                                |    3   |
+|   8  |    Alta    | Como supervisor, quero a aplicação de uma prova final, para testar todos os conteúdos adquiridos ao decorrer do processo.                                                                                      |    3   |
+|   9  |    Alta    | Como supervisor, quero uma emissão de certificado, para comprovação de finalização do curso.                                                                                                                   |    3   | 
+
 
 ---
 
