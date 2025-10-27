@@ -14,27 +14,14 @@ Estabelecer as bases do projeto por meio da definição de tecnologias, criaçã
 
 ## 📋 Backlog da Sprint 1 <a id="backlog"></a>
 
-| Rank | Prioridade | User Story                                                                                                                                                                                                     | Estimativa | Status |
-| :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: |
-|   1  |    Alta    | Como usuário, quero visualizar um protótipo navegável no Figma, para que eu compreenda a proposta do sistema antes do início do desenvolvimento.                                                                                                                               |      5        |   ✅   |
-|   2  |    Alta    | Como usuário, quero visualizar um protótipo do sistema no Figma, para que eu entenda como será a interface antes do desenvolvimento começar.                                                                                                                                      |      6       |   ✅   |
-|   3  |    Alta    | Como usuário, quero que o protótipo mostre a divisão de capítulos e seções, para que eu compreenda a estrutura do sistema e saiba como navegar.                                                                                                                         |      4       |   ✅   |
-|   4  |    Alta    | Como usuário, quero visualizar um painel de introdução no protótipo, para que eu saiba rapidamente o objetivo principal do sistema.                                                                                                                                   |      4       |   ✅   |
-|   5  |    Alta    | Como usuário, quero visualizar um painel de sumário no protótipo, para que eu tenha uma visão geral das funcionalidades disponíveis.                                                                                                           |      4       |   ✅   |
+| Rank | Prioridade | User Story                                                                                                                                                                                                     | Estimativa 
+| :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
+|   1  |    Alta    | Como usuário, quero visualizar um protótipo navegável no Figma, para que eu compreenda a proposta do sistema antes do início do desenvolvimento.                                                                                                                               |      5        
+|   2  |    Alta    | Como usuário, quero visualizar um protótipo do sistema no Figma, para que eu entenda como será a interface antes do desenvolvimento começar.                                                                                                                                      |      6       
+|   3  |    Alta    | Como usuário, quero que o protótipo mostre a divisão de capítulos e seções, para que eu compreenda a estrutura do sistema e saiba como navegar.                                                                                                                         |      4       
+|   4  |    Alta    | Como usuário, quero visualizar um painel de introdução no protótipo, para que eu saiba rapidamente o objetivo principal do sistema.                                                                                                                                   |      4       
+|   5  |    Alta    | Como usuário, quero visualizar um painel de sumário no protótipo, para que eu tenha uma visão geral das funcionalidades disponíveis.                                                                                                           |      4       
 
----
-
-## 
-| Estimativa | Horas     |
-| :-----: | :----------: |
-| 1 | 30 Minutos |
-| 2 | 1 H  |
-| 3 | 2 H  |
-| 4 | 4 H  |
-| 5 | 8 H  |
-| 6 | 16 H |
-| 7 | 32 H |
-| 8 | 64 H |
 
 ---
 
