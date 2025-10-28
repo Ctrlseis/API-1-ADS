@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aula 1 – Introdução ao Scrum</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    function toggleSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      const button = document.querySelector('.toggle-sidebar');
+      sidebar.classList.toggle('fechada');
+      button.classList.toggle('fixo');
+      button.textContent = sidebar.classList.contains('fechada') ? '☰' : '✕';
+    }
+
+    function mostrarSecao(id) {
+      const secoes = document.querySelectorAll('.secao-aula');
+      secoes.forEach(secao => secao.style.display = 'none');
+      const ativa = document.getElementById(id);
+      if (ativa) ativa.style.display = 'block';
+    }
+
+    const nomeUsuario = sessionStorage.getItem("usuario");
+    if (nomeUsuario) {
+      document.addEventListener("DOMContentLoaded", () => {
+        const saudacao = document.getElementById("saudacao-usuario");
+        if (saudacao) saudacao.textContent = `Olá, ${nomeUsuario}`;
+      });
+    }
+  </script>
+</head>
+<body>
+  <header class="floating-header">
+    <div class="top-bar">
+      <a href="#configuracoes" class="left-link">Configurações</a>
+      <img src="assets/img/logo-site.png" alt="StartSprint Logo" class="logo" />
+      <div class="right-actions">
+        <div class="usuario-logado" id="saudacao-usuario"></div>
+        <a href="login.html">Logar</a>
+        <a href="cadastro.html">Criar conta</a>
+      </div>
+    </div>
+    <div class="nav-bar">
+      <nav class="nav-links">
+        <a href="provas.html">Provas</a>
+        <a href="certificado.html">Certificados</a>
+        <a href="contato.html">Contatos</a>
+        <a href="principal.html">Tela Inicial</a>
+        <a href="sumario.html" class="active">Cursos</a>
+        <a href="recomendacao.html">Recomendações</a>
+        <a href="sobre nos.html">Sobre nós</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="aula-layout">
+    <button class="toggle-sidebar fixo" onclick="toggleSidebar()">✕</button>
+
+    <aside class="sidebar" id="sidebar">
+      <nav>
+        <ul class="menu-list">
+          <li><a href="#" onclick="mostrarSecao('secao-visao')">Visão Geral</a></li>
+          <li><a href="#" onclick="mostrarSecao('secao-pilares')">Pilares</a></li>
+          <li><a href="#" onclick="mostrarSecao('secao-valores')">Valores</a></li>
+          <li><a href="#" onclick="mostrarSecao('secao-time')">Time Scrum</a></li>
+          <li><a href="#" onclick="mostrarSecao('secao-beneficios')">Benefícios</a></li>
+        </ul>
+        <div class="voltar-container">
+          <a href="sumario.html" class="voltar-botao">Voltar aos capítulos</a>
+        </div>
+      </nav>
+    </aside>
+
+    <main class="conteudo-aula">
+      <section id="secao-visao" class="secao-aula">
+        <h1 class="titulo-aula">Aula 1 – Introdução ao Scrum e às Metodologias Ágeis</h1>
+        <h2 class="titulo-capitulo">Capítulo 1.1 – O que é o Scrum</h2>
+        <h3 class="subtitulo">O SCRUM</h3>
+        <p>Scrum é um framework ágil que permite a equipes, equipes e organizações gerar valor através de soluções adaptativas, para problemas complexos. É considerado um dos principais métodos para promover a agilidade organizacional.</p>
+        <p>O framework é composto pela incorporação de ideologias e práticas ágeis, como a inspeção, adaptação e transparência, além de elementos como um Time Scrum e papéis e responsabilidades específicas. É uma abordagem iterativa e incremental, que proporciona entregas constantes.</p>
+        <p>Scrum é simples de entender mas desafiador de aplicar. É especialmente eficaz em contextos que exigem soluções complexas, com inteligência coletiva e colaboração contínua.</p>
+        <div class="retangulo-final">
+          <p class="destaque">Scrum é simples de entender, mas desafiador de aplicar, exigindo que as equipes construam sobre sua estrutura com inteligência coletiva e adaptação contínua.</p>
+        </div>
+      </section>
+
+      <section id="secao-pilares" class="secao-aula" style="display: none;">
+        <h2 class="titulo-capitulo">Pilares do Scrum</h2>
+        <div class="pilares-grid">
+          <div class="pilar-card">
+            <h3>Transparência</h3>
+            <p>Os processos e o trabalho devem ser visíveis para todos os envolvidos.</p>
+          </div>
+          <div class="pilar-card">
+            <h3>Inspeção</h3>
+            <p>Os artefatos e o progresso devem ser inspecionados frequentemente.</p>
+          </div>
+          <div class="pilar-card">
+            <h3>Adaptação</h3>
+            <p>Ajustes devem ser feitos rapidamente quando necessário.</p>
+          </div>
+        </div>
+        <div class="pilar-card destaque">
+          <h3>Controle de Processo Empírico</h3>
+          <p>O Scrum é construído sobre três pilares fundamentais que sustentam o controle de processo empírico. Esses pilares trabalham em conjunto para otimizar a transparência, inspeção e adaptação afim de ambientes complexos serem compreendidos e melhorados.</p>
+        </div>
+      </section>
+
+      <section id="secao-valores" class="secao-aula" style="display: none;">
+        <h2 class="titulo-capitulo">Valores do Scrum</h2>
+        <div class="valores-grid">
+          <div class="valor-card"><h3>Comprometimento</h3><p>O Time Scrum se compromete a alcançar seus objetivos e a apoiar uns aos outros.</p></div>
+          <div class="valor-card"><h3>Foco</h3><p>O foco principal está no trabalho da Sprint para fazer o melhor progresso possível.</p></div>
+          <div class="valor-card"><h3>Abertura</h3><p>O Time Scrum e seus stakeholders estão abertos sobre o trabalho e os desafios.</p></div>
+          <div class="valor-card"><h3>Respeito</h3><p>Os membros respeitam os stakeholders, uns aos outros e os membros independentes.</p></div>
+          <div class="valor-card"><h3>Coragem</h3><p>Os membros têm a coragem de fazer o que é certo e de trabalhar em problemas difíceis.</p></div>
+        </div>
+        <div class="valor-card destaque">
+          <h3>Importância dos Valores</h3>
+          <p>Esses valores fornecem direcionamento ao Time Scrum em relação ao trabalho, comportamento e ações. Quando os membros do Time Scrum incorporam os valores do Scrum, o empoderamento e a confiança entre os membros do Time Scrum melhoram.</p>
+        </div>
+      </section>
+
+      <section id="secao-time" class="secao-aula" style="display: none;">
+        <h2 class="titulo-capitulo">Time Scrum</h2>
+        <div class="time-principal">
+          <div class="time-card"><h3 class="titulo-laranja">Desenvolvedores</h3><p>Pessoas que se comprometem a criar incrementos utilizáveis a cada Sprint.</p></div>
+          <div class="time-card"><h3 class="titulo-laranja">Scrum Master</h3><p>Líder-servidor que estabelece o Scrum e remove impedimentos.</p></div>
+          <div class="time-card"><h3 class="titulo-laranja">Product Owner</h3><p>Responsável por maximizar o valor do produto e gerenciar o Product Backlog.</p></div>
+        </div>
+        <div class="time-caracteristicas">
+          <div class="caracteristicas-container">
+            <div class="mini-card verde">
+              <h4 class="titulo-mini verde-titulo">Multifuncional</h4>
+              <p class="texto-mini verde-texto">Possui todas as habilidades necessárias para criar valor a cada Sprint.</p>
+            </div>
+            <div class="mini-card azul">
+              <h4 class="titulo
+                          azul-texto">Decide internamente quem faz o quê, quando e como.</p>
+            </div>
+          </div>
+          <div class="card-final">
+            <h4 class="titulo-final">Tamanho Ideal</h4>
+            <p>O Time Scrum ideal tem 10 ou menos pessoas para manter agilidade e produtividade.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="secao-beneficios" class="secao-aula" style="display: none;">
+        <h2 class="titulo-capitulo">Benefícios do Scrum</h2>
+        <h3 class="subtitulo">Por que escolher o Scrum para seu projeto?</h3>
+
+        <div class="beneficios-card">
+          <div class="beneficios-coluna verde">
+            <ul>
+              <li>
+                <span class="ponto verde"></span>
+                <strong>Entregas frequentes de valor:</strong> Retorno ao investimento dos clientes de forma contínua.
+              </li>
+              <li>
+                <span class="ponto verde"></span>
+                <strong>Redução dos riscos:</strong> Identificação e mitigação precoce de problemas.
+              </li>
+              <li>
+                <span class="ponto verde"></span>
+                <strong>Maior qualidade:</strong> Foco contínuo na qualidade do produto.
+              </li>
+            </ul>
+          </div>
+
+          <div class="beneficios-coluna azul">
+            <ul>
+              <li>
+                <span class="ponto azul"></span>
+                <strong>Mudanças como vantagem:</strong> Adaptação rápida às necessidades do ambiente.
+              </li>
+              <li>
+                <span class="ponto azul"></span>
+                <strong>Visibilidade do progresso:</strong> Transparência total sobre o andamento do projeto.
+              </li>
+              <li>
+                <span class="ponto azul"></span>
+                <strong>Aumento de produtividade:</strong> Otimização do trabalho e redução de desperdícios.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="botao-container">
+          <a href="capitulo1-2.html" class="botao-prosseguir">Prosseguir ▶</a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

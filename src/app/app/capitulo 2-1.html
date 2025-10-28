@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capítulo 2.1 – Framework e Empirismo</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    const nomeUsuario = sessionStorage.getItem("usuario");
+    if (nomeUsuario) {
+      document.addEventListener("DOMContentLoaded", () => {
+        const saudacao = document.getElementById("saudacao-usuario");
+        if (saudacao) saudacao.textContent = `Olá, ${nomeUsuario}`;
+      });
+    }
+  </script>
+</head>
+<body>
+  <!-- Cabeçalho padrão StartSprint -->
+  <header class="floating-header">
+    <div class="top-bar">
+      <a href="#configuracoes" class="left-link">Configurações</a>
+      <img src="assets/img/logo-site.png" alt="StartSprint Logo" class="logo" />
+      <div class="right-actions">
+        <div class="usuario-logado" id="saudacao-usuario"></div>
+        <a href="login.html">Logar</a>
+        <a href="cadastro.html">Criar conta</a>
+      </div>
+    </div>
+    <div class="nav-bar">
+      <nav class="nav-links">
+        <a href="principal.html">Tela Inicial</a>
+        <a href="sumario.html" class="active">Cursos</a>
+        <a href="provas.html">Provas</a>
+        <a href="certificado.html">Certificados</a>
+        <a href="contato.html">Contatos</a>
+        <a href="recomendacao.html">Recomendações</a>
+        <a href="sobre nos.html">Sobre nós</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo da aula -->
+  <main class="conteudo-aula">
+    <div class="imagem-topo">
+      <img src="assets/img/aula2-banner.png" alt="Banner da Aula 2 – Framework e Empirismo" />
+    </div>
+
+    <h2 class="titulo-capitulo">Aula 2 – Estrutura e Mentalidade do Scrum</h2>
+    <h2 class="titulo-capitulo">Capítulo 2.1 – Framework e Empirismo</h2>
+
+    <p>O Scrum é considerado um framework leve, ou seja, fornece apenas a estrutura essencial para guiar equipes complexas. Ele não dita ferramentas nem processos rígidos — é um guia de boas práticas que pode ser adaptado a diferentes contextos e organizações.</p>
+
+    <p>Sua base é o empirismo, um princípio científico que valoriza o aprendizado pela experiência. Em vez de planejar todo o projeto antes de começar, o Scrum convida a equipe a experimentar, observar os resultados e ajustar o plano.</p>
+
+    <p>Isso cria ciclos curtos de tentativa, inspeção e adaptação, permitindo que o time evolua gradualmente. O empirismo valoriza a transparência e o feedback contínuo, promovendo uma cultura de melhoria constante. Cada entrega fornece dados reais que ajudam a tomar decisões melhores na próxima iteração.</p>
+
+    <div class="pilares-diagrama">
+      <img src="assets/img/pilares-scrum.png" alt="Diagrama dos três pilares do Scrum" />
+    </div>
+
+    <h3 class="subtitulo">Os três Pilares do Empirismo no Scrum</h3>
+
+    <section class="pilar">
+      <h4>Transparência</h4>
+      <p>Isso significa apresentar os fatos como são (ou estão). Todas as pessoas envolvidas — o cliente, o CEO e o Time Scrum — são transparentes nas suas relações diárias uns com os outros. Todos confiam mutuamente e têm a coragem de manter-se a par das boas e das más notícias.</p>
+    </section>
+
+    <section class="pilar">
+      <h4>Inspeção</h4>
+      <p>A inspeção nesse contexto não é feita por um inspetor ou auditor, mas por todos do Time Scrum. Por exemplo, a equipe mostra de forma aberta e transparente o produto no final de cada Sprint ao cliente para obter feedback valioso. Se o cliente altera os requisitos durante a inspeção, a equipe busca entender a importância da mudança para os objetivos do negócio e se adapta, usando isso como uma oportunidade de colaborar com o cliente para esclarecer os requisitos e testar a nova hipótese.</p>
+    </section>
+
+    <section class="pilar">
+      <h4>Adaptação</h4>
+      <p>A adaptação, no contexto do framework Scrum, é sobre a melhoria contínua — a capacidade de se adaptar com base nos resultados da inspeção. Todos na organização devem fazer esta pergunta regularmente: "Estamos melhor do que ontem?" A adaptação deve, eventualmente, lembrar os princípios ágeis: nossa maior prioridade é satisfazer o cliente através da entrega contínua e adiantada de software com valor agregado.</p>
+    </section>
+
+    <div class="botoes-final">
+      <a href="sumario.html" class="botao branco">Voltar aos capítulos</a>
+    </div>
+
+    <div class="botao-container">
+      <a href="capitulo 2-2.html" class="botao-prosseguir">Prosseguir ▶</a>
+    </div>
+  </main>
+</body>
+</html>
