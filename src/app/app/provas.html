@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Atividades sobre Scrum e Metodologias Ágeis" />
+  <title>StartSprint - Atividades</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+  const nomeUsuario = sessionStorage.getItem("usuario");
+
+  if (nomeUsuario) {
+    document.getElementById("saudacao-usuario").textContent = `Olá, ${nomeUsuario}`;
+  }
+
+  document.getElementById("link-cursos").addEventListener("click", function (e) {
+    const usuarioLogado = sessionStorage.getItem("usuario");
+    if (!usuarioLogado) {
+      e.preventDefault();
+      window.location.href = "login.html";
+    }
+  });
+
+  function verificarRespostas() {
+    const gabarito = {
+      q1: "Promover colaboração e entrega contínua de valor",
+      q2: "Transparência, Inspeção e Adaptação",
+      q3: "Coragem",
+      q4: "O Scrum é baseado em ciclos curtos e adaptação contínua",
+      q5: "Maximizar o valor do produto e gerenciar o backlog",
+      q6: "Tomar decisões com base em experiência e observação"
+    };
+
+    let acertos = 0;
+
+    for (let i = 1; i <= 6; i++) {
+      const radios = document.getElementsByName(`q${i}`);
+      for (const radio of radios) {
+        if (radio.checked && radio.parentElement.textContent.trim() === gabarito[`q${i}`]) {
+          acertos++;
+        }
+      }
+    }
+
+    alert(`Você acertou ${acertos} de 6 perguntas.`);
+  }
+</script>
+
+  <style>
+    .atividade-section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 40px;
+      background-color: #f8f9ff;
+      border: 1px solid #cbd5e1;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(30, 64, 175, 0.2);
+    }
+
+    .atividade-section h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #1e40af;
+      text-align: center;
+    }
+
+    .atividade-section .pergunta {
+      margin-bottom: 30px;
+    }
+
+    .atividade-section .pergunta h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #1e293b;
+    }
+
+    .atividade-section .alternativas label {
+      display: block;
+      margin-bottom: 8px;
+      padding: 8px 12px;
+      background-color: #e0e7ff;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .atividade-section .alternativas label:hover {
+      background-color: #c7d2fe;
+    }
+
+    .atividade-section input[type="radio"] {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header class="floating-header">
+    <div class="top-bar">
+      <a href="#configuracoes" class="left-link">Configurações</a>
+      <img src="assets/img/logo-site.png" alt="StartSprint Logo" class="logo" />
+      <div class="right-actions">
+        <div class="usuario-logado" id="saudacao-usuario"></div>
+        <a href="login.html">Logar</a>
+        <a href="cadastro.html">Criar conta</a>
+      </div>
+    </div>
+    <div class="nav-bar">
+      <nav class="nav-links">
+        <a href="#provas">Provas</a>
+        <a href="certificados.html">Certificados</a>
+        <a href="contatos.html">Contatos</a>
+        <a href="principal.html">Tela Inicial</a>
+        <a href="sumario.html" id="link-cursos">Cursos</a>
+        <a href="recomendacoes.html">Recomendações</a>
+        <a href="sobre-nos.html">Sobre nós</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="atividade-section">
+    <h1>Atividades – Aula 1 a 3</h1>
+
+    <div class="pergunta">
+      <h3>1. Qual é o principal objetivo do Scrum?</h3>
+      <div class="alternativas">
+        <label><input type="radio" name="q1" /> Controlar todas as etapas do projeto com rigidez</label>
+        <label><input type="radio" name="q1" /> Planejar o projeto inteiro antes de começar</label>
+        <label><input type="radio" name="q1" /> Promover colaboração e entrega contínua de valor</label>
+        <label><input type="radio" name="q1" /> Eliminar reuniões e cerimônias</label>
+      </div>
+    </div>
+
+    <div class="pergunta">
+      <h3>2. Quais são os três pilares do Scrum?</h3>
+      <div class="alternativas">
+        <label><input type="radio" name="q2" /> Planejamento, Execução e Controle</label>
+        <label><input type="radio" name="q2" /> Transparência, Inspeção e Adaptação</label>
+        <label><input type="radio" name="q2" /> Agilidade, Comunicação e Entrega</label>
+        <label><input type="radio" name="q2" /> Sprint, Backlog e Review</label>
+      </div>
+    </div>
+
+    <div class="pergunta">
+      <h3>3. Qual destes é um valor essencial do Scrum?</h3>
+      <div class="alternativas">
+        <label><input type="radio" name="q3" /> Velocidade</label>
+        <label><input type="radio" name="q3" /> Coragem</label>
+        <label><input type="radio" name="q3" /> Controle</label>
+        <label><input type="radio" name="q3" /> Eficiência</label>
+      </div>
+    </div>
+
+    <div class="pergunta">
+      <h3>4. O que diferencia o Scrum do modelo em cascata?</h3>
+      <div class="alternativas">
+        <label><input type="radio" name="q4" /> O Scrum não tem planejamento</label>
+        <label><input type="radio" name="q4" /> O Scrum é baseado em ciclos curtos e adaptação contínua</label>
+        <label><input type="radio" name="q4" /> O modelo em cascata é mais colaborativo</label>
+        <label><input type="radio" name="q4" /> O Scrum exige documentação extensa</label>
+      </div>
+    </div>
+
+    <div class="pergunta">
+      <h3>5. Qual é a principal responsabilidade do Product Owner?</h3>
+      <div class="alternativas">
+        <label><input type="radio" name="q5" /> Supervisionar os desenvolvedores</label>
+        <label><input type="radio" name="q5" /> Facilitar reuniões diárias</label>
+        <label><input type="radio" name="q5" /> Maximizar o valor do produto e gerenciar o backlog</label>
+        <label><input type="radio" name="q5" /> Testar funcionalidades</label>
+      </div>
+    </div>
+
+    <div class="pergunta">
+      <h3>6. O que significa empirismo no contexto do Scrum?</h3>
+      <div class="alternativas">
+        <label><input type="radio" name="q6" /> Planejar tudo com antecedência</label>
+        <label><input type="radio" name="q6" /> Tomar decisões com base em experiência e observação</label>
+        <label><input type="radio" name="q6" /> Seguir regras rígidas</label>
+        <label><input type="radio" name="q6" /> Evitar mudanças durante o projeto</label>
+      </div>
+    </div>
+  </section>
+</body>
+<footer>
+</footer>
+</html>
