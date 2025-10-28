@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StartSprint - Certificado</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    const nomeUsuario = sessionStorage.getItem("usuario");
+
+    if (nomeUsuario) {
+      document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("saudacao-usuario").textContent = `Olá, ${nomeUsuario}`;
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("link-cursos").addEventListener("click", function (e) {
+        const usuarioLogado = sessionStorage.getItem("usuario");
+        if (!usuarioLogado) {
+          e.preventDefault();
+          window.location.href = "login.html";
+        }
+      });
+
+      document.getElementById("link-certificados").addEventListener("click", function (e) {
+        e.preventDefault();
+        alert("A página de Certificados está em desenvolvimento.");
+      });
+
+      document.getElementById("link-recomendacoes").addEventListener("click", function (e) {
+        e.preventDefault();
+        alert("A página de Recomendações está em desenvolvimento.");
+      });
+    });
+  </script>
+</head>
+<body>
+  <header class="floating-header">
+    <div class="top-bar">
+      <a href="#configuracoes" class="left-link">Configurações</a>
+      <img src="assets/img/logo-site.png" alt="StartSprint Logo" class="logo" />
+      <div class="right-actions">
+        <div class="usuario-logado" id="saudacao-usuario"></div>
+        <a href="login.html">Logar</a>
+        <a href="cadastro.html">Criar conta</a>
+      </div>
+    </div>
+    <div class="nav-bar">
+      <nav class="nav-links">
+        <a href="provas.html">Provas</a>
+        <a href="certificado.html" class="active" >Certificados</a>
+        <a href="contato.html">Contatos</a>
+        <a href="principal.html">Tela Inicial</a>
+        <a href="sumario.html">Cursos</a>
+        <a href="recomendacao.html">Recomendações</a>
+        <a href="sobre nos.html">Sobre nós</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="scrum-section">
+    <h1 class="scrum-title">Bem-vindo ao StartSprint</h1>
+    <div class="scrum-content">
+      <p>Página em desenvlvimento.Escolha uma das opções acima para navegar pelo conteúdo do projeto.</p>
+    </div>
+  </section>
+</body>
+<footer>
+</footer>
+</html>
