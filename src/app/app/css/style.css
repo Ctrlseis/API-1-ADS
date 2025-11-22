@@ -8,6 +8,21 @@ body {
   padding-top: 160px; /* espaço para o cabeçalho fixo */
 }
 
+header.floating-header1 img.logo {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.floating-header1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 /* Cabeçalho flutuante */
 .floating-header {
   position: fixed;
@@ -247,6 +262,7 @@ body {
     max-width: 100%;
   }
 }
+
 
 /* CSS DO SUMARIO */
 /* CSS DO SUMARIO */
@@ -1128,8 +1144,66 @@ p {
 }
 
 
-/* CSS DO CAP 2-2*/
-/* CSS DO CAP 2-2*/
-/* CSS DO CAP 2-2*/
+/* CSS PADRAO IMAGEM*/
+/* CSS PADRAO IMAGEM*/
+/* CSS PADRAO IMAGEM*/
 
 
+.padrao img {
+  width: 350px;   
+  height: auto;   
+  display: block;
+  margin: 0 auto; 
+}
+
+.padrao2 img {
+  width: 800px;   
+  height: auto;   
+  display: block;
+  margin: 0 auto; 
+}
+
+/* CSS PARA LISTAS*/
+/* CSS PARA LISTAS*/
+/* CSS PARA LISTAS*/
+
+ul {
+  list-style: none;                 
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+
+ul li {
+  background: #f3f6ff;            
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-left: 5px solid #3b82f6;   
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+ul li:hover {
+  transform: translateX(5px);
+  background: #e8f0ff;
+}
+
+ul li::before {
+  content: "•";
+  color: #3b82f6;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1d3557; /* azul escuro elegante */
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 4px solid #457b9d; /* barra lateral azul */
+}
