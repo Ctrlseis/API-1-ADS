@@ -5,7 +5,7 @@
       <h2 align="center"> CtrlSeis</h2>
 </p>
 
-> Status do Projeto: Sprint 2
+> Status do Projeto: Sprint 3
 
 ## 🏅 Desafio <a id="desafio"></a>
 
