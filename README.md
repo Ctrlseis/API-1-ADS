@@ -58,3 +58,21 @@ O desafio consiste em desenvolver um sistema web que indique todos os processos 
 </h4>
 
 ---
+
+## 📖 Manual de Instalação <a id="manual"></a>
+
+### 🛠 Pré-requisitos
+
+- Git ([Download](https://git-scm.com/downloads))
+
+- Python 3.9+ ([Download](https://www.python.org/downloads/))
+
+- Visual Studio Code ([Download](https://code.visualstudio.com/download/))
+
+## Instalação
+
+### 1. Clonar o Repositório Principal
+
+   ```bash
+   git clone https://github.com/Ctrlseis/API-1-ADS.git
+   cd API-1-ADS
