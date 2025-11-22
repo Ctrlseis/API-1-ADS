@@ -45,7 +45,7 @@ O desafio consiste em desenvolver um sistema web que indique todos os processos 
 | --------------- | :-----------: | :--------------------: |
 | 🔖 **SPRINT 1** | 08/09 - 28/09 |  <a href = docs/sprint1/documentação/README.md> Sprint 1 Docs</a>
 | 🔖 **SPRINT 2** | 06/10 - 26/10 |  <a href = "docs/sprint 2/README.md"> Sprint 2 Docs</a>
-| 🔖 **SPRINT 3** | 03/11 - 23/11 |  <a href = "docs/sprint 3/README.md"> Sprint 3 Docs</a>
+| 🔖 **SPRINT 3** | 03/11 - 23/11 |  <a href = "docs/sprint 3/Readme.md"> Sprint 3 Docs</a>
 
 ## 💻 Tecnologias <a id="tecnologias"></a>
 
