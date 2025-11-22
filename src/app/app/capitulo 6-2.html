@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capítulo 6.2 – Práticas e Técnicas</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    const nomeUsuario = sessionStorage.getItem("usuario");
+    if (nomeUsuario) {
+      document.addEventListener("DOMContentLoaded", () => {
+        const saudacao = document.getElementById("saudacao-usuario");
+        if (saudacao) saudacao.textContent = `Olá, ${nomeUsuario}`;
+      });
+    }
+  </script>
+</head>
+<body>
+  <!-- Cabeçalho padrão StartSprint -->
+  <header class="floating-header">
+    <div class="top-bar">
+      <a href="#configuracoes" class="left-link">Configurações</a>
+      <img src="assets/img/logo-site.png" alt="StartSprint Logo" class="logo" />
+      <div class="right-actions">
+        <div class="usuario-logado" id="saudacao-usuario"></div>
+        <a href="login.html">Logar</a>
+        <a href="cadastro.html">Criar conta</a>
+      </div>
+    </div>
+    <div class="nav-bar">
+      <nav class="nav-links">
+        <a href="principal.html">Tela Inicial</a>
+        <a href="sumario.html" class="active">Cursos</a>
+        <a href="provas.html">Provas</a>
+        <a href="certificado.html">Certificados</a>
+        <a href="contato.html">Contatos</a>
+        <a href="recomendacao.html">Recomendações</a>
+        <a href="sobre nos.html">Sobre nós</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo da aula -->
+  <main class="conteudo-aula">
+    <div class="imagem-topo">
+      <img src="assets/img/praticas.png" alt="Banner da Aula 6.2 – Práticas e Técnicas" />
+    </div>
+    <h2 class="titulo-capitulo">Capítulo 6.2 – Práticas e Técnicas</h2>
+
+    <p>Além do framework em si, o Scrum se beneficia de práticas complementares que ajudam as equipes a planejar, estimar, organizar e entregar valor com mais consistência. Essas práticas não fazem parte oficial do Scrum Guide, mas se tornaram amplamente utilizadas por sua eficiência.</p>
+
+    <h3 class="subtitulo">User Stories</h3>
+    <p>User Stories são descrições simples e focadas no usuário, normalmente escritas no formato:</p>
+    <ul>
+      <li><strong>Como</strong> [tipo de usuário]</li>
+      <li><strong>Eu quero</strong> [ação/funcionalidade]</li>
+      <li><strong>Para</strong> [benefício esperado]</li>
+    </ul>
+    <p>Elas ajudam a equipe a entender claramente o valor entregue e facilitam conversas sobre requisitos.</p>
+
+    <h3 class="subtitulo">Planning Poker</h3>
+    <p>É uma técnica de estimativa colaborativa em que cada membro escolhe uma carta com o valor de esforço esperado. Os valores geralmente seguem a sequência de Fibonacci (1, 2, 3, 5, 8…).</p>
+    <p>O objetivo é evitar que uma pessoa influencie a outra e estimular discussões sobre complexidade, riscos e incertezas.</p>
+
+    <h3 class="subtitulo">Kanban Board</h3>
+    <p>Um painel visual dividido em colunas como <strong>A Fazer</strong>, <strong>Em Progresso</strong> e <strong>Concluído</strong>. Ele aumenta a transparência e ajuda a identificar gargalos no fluxo de trabalho.</p>
+    <p>Embora seja uma prática do método Kanban, é amplamente combinada com Scrum (conhecido como Scrumban).</p>
+
+    <h3 class="subtitulo">Definition of Ready (DoR)</h3>
+    <p>A DoR garante que os itens do backlog estejam claros, detalhados e prontos para serem desenvolvidos. Um item só entra na Sprint se cumprir esses critérios.</p>
+    <p>Isso evita retrabalho, dúvidas e paralisações durante a Sprint.</p>
+
+    <h3 class="subtitulo">Refinamento Contínuo</h3>
+    <p>O time revisa regularmente o Product Backlog para detalhar, dividir, estimar e priorizar itens. Esse processo não é um evento oficial do Scrum, mas é essencial para manter um backlog saudável.</p>
+
+    <h3 class="subtitulo">Priorização por Valor</h3>
+    <p>Técnicas como <strong>Moscow</strong>, <strong>WSJF</strong> e <strong>RICE</strong> ajudam o Product Owner a decidir o que entrega o maior impacto no menor tempo.</p>
+
+    <p>Essas práticas tornam o trabalho mais previsível e organizado, permitindo que o time entregue valor de forma contínua e sustentável.</p>
+
+
+    <div class="botoes-rodape">
+      <a href="javascript:history.back()" class="botao branco">◀</a>
+      <a href="sumario.html" class="botao branco">Voltar aos capítulos</a>
+      <a href="capitulo 6-3.html" class="botao azul">Próxima Aula</a>
+    </div>
+  </main>
+</body>
+<footer>
+</footer>
+</html>

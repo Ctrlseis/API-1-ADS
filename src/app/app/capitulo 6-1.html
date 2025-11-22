@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capítulo 6.1 – Ferramentas de Gestão Ágil</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    const nomeUsuario = sessionStorage.getItem("usuario");
+    if (nomeUsuario) {
+      document.addEventListener("DOMContentLoaded", () => {
+        const saudacao = document.getElementById("saudacao-usuario");
+        if (saudacao) saudacao.textContent = `Olá, ${nomeUsuario}`;
+      });
+    }
+  </script>
+</head>
+<body>
+  <!-- Cabeçalho padrão StartSprint -->
+  <header class="floating-header">
+    <div class="top-bar">
+      <a href="#configuracoes" class="left-link">Configurações</a>
+      <img src="assets/img/logo-site.png" alt="StartSprint Logo" class="logo" />
+      <div class="right-actions">
+        <div class="usuario-logado" id="saudacao-usuario"></div>
+        <a href="login.html">Logar</a>
+        <a href="cadastro.html">Criar conta</a>
+      </div>
+    </div>
+    <div class="nav-bar">
+      <nav class="nav-links">
+        <a href="principal.html">Tela Inicial</a>
+        <a href="sumario.html" class="active">Cursos</a>
+        <a href="provas.html">Provas</a>
+        <a href="certificado.html">Certificados</a>
+        <a href="contato.html">Contatos</a>
+        <a href="recomendacao.html">Recomendações</a>
+        <a href="sobre nos.html">Sobre nós</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo da aula -->
+  <main class="conteudo-aula">
+    <h2 class="titulo-capitulo">Aula 6 – Ferramentas, Práticas e Métricas Ágeis</h2>
+    <h2 class="titulo-capitulo">Capítulo 6.1 – Ferramentas de Gestão Ágil</h2>
+
+    <p>As ferramentas de gestão ágil ajudam equipes a organizar tarefas, acompanhar o progresso e manter a transparência durante o desenvolvimento. Elas simulam quadros visuais, listas, Sprints e relatórios que facilitam a aplicação de Scrum e outras metodologias ágeis.</p>
+
+    <h3 class="subtitulo">📌 Principais ferramentas utilizadas em times ágeis</h3>
+
+    <div class="padrao2">
+      <img src="assets/img/ferramentas.jpg" alt="Principais ferramentas utilizadas em times ágeis" />
+    </div>
+
+    <h4>1️⃣ Jira Software (o mais usado em empresas)</h4>
+    <p>É a ferramenta mais completa e robusta para Scrum e Kanban, amplamente usada por empresas grandes e médias.</p>
+    <ul class="lista-estilizada">
+      <li>Permite criar e organizar Product Backlogs</li>
+      <li>Controla Sprints e incrementos</li>
+      <li>Gera relatórios como Burndown, Velocity e CFD</li>
+      <li>Permite automações avançadas</li>
+      <li>Integra com Confluence, Bitbucket e outros sistemas</li>
+    </ul>
+
+    <h4>2️⃣ Trello (simples e visual)</h4>
+    <p>Ideal para iniciantes e equipes pequenas. Usa quadros arrastáveis (Kanban) com muita facilidade.</p>
+    <ul class="lista-estilizada">
+      <li>Quadros visuais com cartões</li>
+      <li>Listas A Fazer / Fazendo / Concluído</li>
+      <li>Checklists e etiquetas</li>
+      <li>Bom para organização de estudos e projetos menores</li>
+    </ul>
+
+    <h4>3️⃣ ClickUp</h4>
+    <p>Ferramenta moderna e muito flexível, combinando listas, Kanban, documentos e dashboards.</p>
+    <ul class="lista-estilizada">
+      <li>Boa para equipes que precisam de mais personalização</li>
+      <li>Permite gerenciar OKRs, tarefas, metas e automações</li>
+      <li>Visualização em lista, calendário, board e timeline</li>
+    </ul>
+
+    <h4>4️⃣ Monday.com</h4>
+    <p>Plataforma visual focada em colaboração e organização do fluxo de trabalho.</p>
+    <ul class="lista-estilizada">
+      <li>Indicada para equipes multidisciplinares</li>
+      <li>Permite criar fluxos personalizados</li>
+      <li>Painéis com indicadores e métricas</li>
+    </ul>
+
+    <h3 class="subtitulo">📌 O que todas essas ferramentas têm em comum?</h3>
+    <div class="manifesto-valores">
+      <li><strong>Quadros Kanban</strong> com tarefas e progresso</li>
+      <li><strong>Gestão de Sprints</strong> (em algumas)</li>
+      <li><strong>Transparência</strong> sobre o que cada membro está fazendo</li>
+      <li><strong>Histórico</strong> de atividades e alterações</li>
+      <li><strong>Checklist e subtarefas</strong></li>
+    </div>
+
+    <h3 class="subtitulo">🎯 Qual o propósito real dessas ferramentas?</h3>
+    <p>Elas não servem apenas para “organizar tarefas”, mas para apoiar os pilares do Scrum:</p>
+    <div class="manifesto-valores">
+      <li><strong>Transparência:</strong> tudo é visível para o time</li>
+      <li><strong>Inspeção:</strong> o progresso pode ser analisado diariamente</li>
+      <li><strong>Adaptação:</strong> ajustes rápidos no planejamento</li>
+    </div>
+
+    <p>O foco sempre é melhorar a comunicação, tornar o trabalho claro e facilitar a inspeção contínua.</p>
+
+    <h3 class="subtitulo">💡 Dica para estudos e prática</h3>
+    <p>Se você está aprendendo Scrum, comece pelo Trello. Depois, evolua para ClickUp ou Jira, que são usadas em empresas.</p>
+
+
+    <div class="botoes-rodape">
+      <a href="sumario.html" class="botao branco">Voltar aos capítulos</a>
+      <a href="capitulo 6-2.html" class="botao azul">Próxima Aula</a>
+    </div>
+  </main>
+</body>
+<footer>
+</footer>
+</html>

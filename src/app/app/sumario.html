@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StartSprint - Sumário do Curso</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    const nomeUsuario = sessionStorage.getItem("usuario");
+    if (nomeUsuario) {
+      document.addEventListener("DOMContentLoaded", () => {
+        const saudacao = document.getElementById("saudacao-usuario");
+        if (saudacao) saudacao.textContent = `Olá, ${nomeUsuario}`;
+      });
+    }
+  </script>
+</head>
+<body>
+  <header class="floating-header">
+    <div class="top-bar">
+      <a href="#configuracoes" class="left-link">Configurações</a>
+      <img src="assets/img/logo-site.png" alt="StartSprint Logo" class="logo" />
+      <div class="right-actions">
+        <div class="usuario-logado" id="saudacao-usuario"></div>
+        <a href="login.html">Logar</a>
+        <a href="cadastro.html">Criar conta</a>
+      </div>
+    </div>
+
+    <div class="nav-bar">
+      <nav class="nav-links">
+        <a href="provas.html">Provas</a>
+        <a href="certificado.html">Certificados</a>
+        <a href="contato.html">Contatos</a>
+        <a href="principal.html">Tela Inicial</a>
+        <a href="sumario.html" class="active">Cursos</a>
+        <a href="recomendacao.html">Recomendações</a>
+        <a href="sobre nos.html">Sobre nós</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="sumario-wrapper">
+    <section class="sumario-container">
+
+      <div class="modulo-card">
+        <div class="modulo-titulo">Introdução</div>
+        <div class="modulo-conteudo">
+          <p>Nesta aula, você entenderá o que é o Scrum, de onde ele veio e como ele se conecta ao movimento ágil que transformou a forma de trabalhar em equipe.</p>
+          <div class="modulo-botao">
+            <button onclick="location.href='capitulo1-1.html'">Iniciar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modulo-card">
+        <div class="modulo-titulo">Estrutura e Mentalidade</div>
+        <div class="modulo-conteudo">
+          <p>Nesta aula, você entenderá como o Scrum organiza o trabalho, o papel das Sprints e a importância da mentalidade ágil.</p>
+          <div class="modulo-botao">
+            <button onclick="location.href='capitulo 2-1.html'">Iniciar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modulo-card">
+        <div class="modulo-titulo">Papéis e Responsabilidades no Scrum</div>
+        <div class="modulo-conteudo">
+          <p>Aqui você conhecerá os três papéis principais do Scrum Team e entenderá como cada um contribui para o sucesso do projeto.</p>
+          <div class="modulo-botao">
+            <button onclick="location.href='capitulo 3-1.html'">Iniciar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modulo-card">
+        <div class="modulo-titulo">Eventos do Scrum</div>
+        <div class="modulo-conteudo">
+          <p>Nesta aula, você entenderá sobre os principais eventos que compõem o ciclo Scrum e como eles promovem a colaboração.</p>
+          <div class="modulo-botao">
+            <button onclick="location.href='capitulo 4-1.html'">Iniciar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modulo-card">
+        <div class="modulo-titulo">Artefatos e Compromissos do Scrum</div>
+        <div class="modulo-conteudo">
+          <p>Aqui, exploraremos os principais artefatos do Scrum e seus compromissos que garantem transparência e alinhamento.</p>
+          <div class="modulo-botao">
+            <button onclick="location.href='capitulo 5-1.html'">Iniciar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modulo-card">
+        <div class="modulo-titulo">Scrum, Produtos e Métricas Ágeis</div>
+        <div class="modulo-conteudo">
+          <p>Nesta aula, você entenderá os fundamentos de produtos ágeis e como suportar a aplicação do Scrum.</p>
+          <div class="modulo-botao">
+            <button onclick="location.href='capitulo 6-1.html'">Iniciar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modulo-card">
+        <div class="modulo-titulo">Implementando o Scrum na Prática</div>
+        <div class="modulo-conteudo">
+          <p>Nesta aula, veremos como aplicar o Scrum em contextos reais e superar desafios de adoção.</p>
+          <div class="modulo-botao">
+            <button onclick="location.href='capitulo 7-1.html'">Iniciar</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+</body>
+</html>

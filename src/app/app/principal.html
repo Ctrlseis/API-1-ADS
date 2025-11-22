@@ -6,29 +6,22 @@
   <meta name="description" content="Aprenda sobre SCRUM e cases de sucesso com metodologias ágeis" />
   <title>StartSprint - O Que é SCRUM?</title>
   <link rel="stylesheet" href="css/style.css" />
-  
   <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const nomeUsuario = sessionStorage.getItem("usuario");
+    const nomeUsuario = sessionStorage.getItem("usuario");
 
-      if (nomeUsuario) {
-        document.getElementById("saudacao-usuario").textContent = `Olá, ${nomeUsuario}`;
-      }
+    if (nomeUsuario) {
+      document.getElementById("saudacao-usuario").textContent = `Olá, ${nomeUsuario}`;
+    }
 
-      const linkCursos = document.getElementById("link-cursos");
-      if (linkCursos) {
-        linkCursos.addEventListener("click", function (e) {
-          const usuarioLogado = sessionStorage.getItem("usuario");
-          if (!usuarioLogado) {
-            e.preventDefault();
-            window.location.href = "login.html";
-          }
-        });
+    document.getElementById("link-cursos").addEventListener("click", function (e) {
+      const usuarioLogado = sessionStorage.getItem("usuario");
+      if (!usuarioLogado) {
+        e.preventDefault();
+        window.location.href = "login.html";
       }
     });
   </script>
 </head>
-
 <body>
   <header class="floating-header">
     <div class="top-bar">
@@ -40,14 +33,13 @@
         <a href="cadastro.html">Criar conta</a>
       </div>
     </div>
-
     <div class="nav-bar">
       <nav class="nav-links">
         <a href="provas.html">Provas</a>
         <a href="certificado.html">Certificados</a>
         <a href="contato.html">Contatos</a>
         <a href="principal.html" class="active">Tela Inicial</a>
-        <a href="sumario.html">Cursos</a>
+        <a href="sumario.html" id="link-cursos">Cursos</a>
         <a href="recomendacao.html">Recomendações</a>
         <a href="sobre nos.html">Sobre nós</a>
       </nav>
@@ -112,8 +104,7 @@
       <img src="assets/img/logo-saab.png" alt="Logo SAAB" class="case-logo" />
     </article>
   </section>
-
-  <footer></footer>
 </body>
+<footer>
+</footer>
 </html>
-

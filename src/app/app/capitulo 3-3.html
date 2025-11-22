@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capítulo 3.3 – Scrum Team e Desenvolvedores</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    const nomeUsuario = sessionStorage.getItem("usuario");
+    if (nomeUsuario) {
+      document.addEventListener("DOMContentLoaded", () => {
+        const saudacao = document.getElementById("saudacao-usuario");
+        if (saudacao) saudacao.textContent = `Olá, ${nomeUsuario}`;
+      });
+    }
+  </script>
+</head>
+<body>
+  <!-- Cabeçalho padrão StartSprint -->
+  <header class="floating-header">
+    <div class="top-bar">
+      <a href="#configuracoes" class="left-link">Configurações</a>
+      <img src="assets/img/logo-site.png" alt="StartSprint Logo" class="logo" />
+      <div class="right-actions">
+        <div class="usuario-logado" id="saudacao-usuario"></div>
+        <a href="login.html">Logar</a>
+        <a href="cadastro.html">Criar conta</a>
+      </div>
+    </div>
+    <div class="nav-bar">
+      <nav class="nav-links">
+        <a href="principal.html">Tela Inicial</a>
+        <a href="sumario.html" class="active">Cursos</a>
+        <a href="provas.html">Provas</a>
+        <a href="certificado.html">Certificados</a>
+        <a href="contato.html">Contatos</a>
+        <a href="recomendacao.html">Recomendações</a>
+        <a href="sobre nos.html">Sobre nós</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo da aula -->
+  <main class="conteudo-aula">
+    <h2 class="titulo-capitulo">Capítulo 3.3 – Scrum Team e Desenvolvedores</h2>
+
+    <p>O Scrum Team é multidisciplinar e autogerenciado. Ele é composto por um Product Owner, um Scrum Master e um grupo de Desenvolvedores. Não há hierarquias internas — todos são responsáveis coletivamente pelo resultado.</p>
+
+
+    <p>Os desenvolvedores são especialistas que transformam ideias e requisitos em incrementos reais do produto. Eles possuem autonomia para decidir como o trabalho será feito, planejam suas próprias tarefas e se comprometem com entregas a cada Sprint.</p>
+
+
+    <p>Segundo o Scrum Guide 2020, os desenvolvedores são responsáveis por criar um <strong>Incremento de qualidade</strong> a cada Sprint, garantindo que tudo esteja dentro da Definição de Pronto (DoD). Isso garante transparência e aumenta a previsibilidade.</p>
+
+    <h3 class="subtitulo">Responsabilidades dos Desenvolvedores</h3>
+    <div class="manifesto-valores">
+      <ul>
+      <li>Criar um plano para a Sprint durante a Sprint Planning.</li>
+      <li>Colaborar diariamente no Daily Scrum para inspecionar e adaptar o plano.</li>
+      <li>Entregar incrementos funcionais e de alta qualidade.</li>
+      <li>Garantir que o trabalho esteja alinhado ao Sprint Goal.</li>
+      <li>Gerir coletivamente o Backlog da Sprint.</li>
+      </ul>
+    </div>
+
+
+    <p>Um time Scrum eficaz valoriza comunicação, responsabilidade compartilhada e foco em resultados. A união entre suas habilidades individuais cria um ambiente de alta performance.</p>
+
+    <div class="botoes-rodape">
+      <a href="javascript:history.back()" class="botao branco">◀</a>
+      <a href="sumario.html" class="botao branco">Voltar aos capítulos</a>
+      <a href="conclusao-capitulo3.html" class="botao concluir">Concluir Aula</a>
+    </div>
+  </main>
+</body>
+<footer>
+</footer>
+</html>
